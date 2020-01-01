@@ -181,6 +181,9 @@ nav div a:active {
 body {
   margin: 0 2% 0 2%;
 }
+.bodypara {
+  width: auto;
+}
 h1 {
   display: flex;
   justify-content: center;
@@ -198,6 +201,7 @@ h2 {
 h3 {
   display: flex;
   justify-content: center;
+  color: #1F1E1E;
 }
 p {
   font-size: 1.75rem;
@@ -298,5 +302,26 @@ footer div a:active {
   color: white;
 }
 .footerhead {
-  margin: 0 0 10% 0;
+  margin: 0 0 5% 0;
+}
+.lastclass {
+  transform: scale(0.5);
+}
+.lastclass1 {
+  width: 80%;
+  margin: 0 0 0 80%;
+}
+.lastclass2 {
+  width: 150%;
+  margin: 0 0 0 165%;
+}
+.lastclass3 {
+  width: 40%;
+  margin: 0 0 0 100%;
+}
+.lastclass4 {
+  width: 30%;
+  margin: 0 0 0 45%;
+  position: relative;
+  bottom: 0.5rem;
 }
