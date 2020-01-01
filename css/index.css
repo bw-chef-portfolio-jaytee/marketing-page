@@ -279,6 +279,42 @@ p {
   color: #FFFFFF;
   padding: 5% 0 5% 2%;
 }
+.aboutpics {
+  width: 20%;
+  border-radius: 1rem;
+}
+.aboutpics1 {
+  height: 13rem;
+}
+.dispflex {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 2% 0 2%;
+}
+.abouth2s {
+  font-size: 8rem;
+}
+.moveleft1 {
+  margin: 5% 0 0 5%;
+}
+.moveleft2 {
+  margin: 5% 0 0 12%;
+}
+.aboutline1 {
+  border-top: 2px dashed #1F1E1E;
+  margin: 5% 0 5% 0;
+}
+.aboutline2 {
+  border-top: 2px dashed #1F1E1E;
+  margin: 0 0 5% 0;
+}
+.aboutline3 {
+  border-top: 2px dashed #1F1E1E;
+  margin: 0 0 5% 0;
+}
+.aboutline4 {
+  border-top: 2px dashed #1F1E1E;
+}
 footer {
   font-size: 2rem;
   margin: 5% 0% 0% 0%;
@@ -303,9 +339,13 @@ footer div a:active {
 }
 .footerhead {
   margin: 0 0 5% 0;
+  color: #1F1E1E;
 }
 .lastclass {
   transform: scale(0.5);
+}
+.lastclass:hover {
+  opacity: 0.6;
 }
 .lastclass1 {
   width: 80%;
