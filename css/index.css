@@ -128,7 +128,7 @@ table {
 }
 * {
   box-sizing: border-box;
-  font-family: 'lato';
+  font-family: 'Lato', sans-serif;
 }
 html {
   font-size: 62.5%;
@@ -180,9 +180,22 @@ nav div a:active {
 }
 body {
   margin: 0 2% 0 2%;
+  font-family: 'Lato', sans-serif;
 }
 .bodypara {
   width: auto;
+}
+@media (max-width: 500px) {
+  .bodypara {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+@media (max-width: 800px) {
+  .headerpics {
+    display: none;
+  }
 }
 h1 {
   display: flex;
@@ -192,11 +205,23 @@ h1 {
   padding: 10% 0 0 0;
   font-size: 5rem;
 }
+@media (max-width: 500px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
 h2 {
   display: flex;
   justify-content: left;
   font-size: 3.6rem;
   margin-top: 3%;
+}
+@media (max-width: 500px) {
+  h2 {
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+  }
 }
 h3 {
   display: flex;
@@ -235,17 +260,37 @@ p {
   padding: 5% 0 5% 0;
   margin: 0 0% 0 0%;
 }
+@media (max-width: 500px) {
+  .firstwords {
+    font-size: 1.9rem;
+  }
+}
 .middlepara {
   display: flex;
   position: relative;
-  margin: 0 50% 0 2%;
+  margin: 0 55% 5% 6%;
   padding-top: 5%;
+}
+@media (max-width: 500px) {
+  .middlepara {
+    margin: 0% 0% 0 0%;
+    justify-content: center;
+    font-size: 2.75rem;
+    font-weight: bold;
+  }
 }
 .middlepg {
   display: flex;
   position: relative;
-  margin: 5% 50% 0 2%;
+  margin: 5% 55% 0 2%;
   padding-bottom: 10%;
+}
+@media (max-width: 500px) {
+  .middlepg {
+    display: flex;
+    justify-content: center;
+    margin: 15% 5% 10% 5%;
+  }
 }
 .lastpara {
   margin: 5% 10% 0 10%;
@@ -255,15 +300,28 @@ p {
   margin-top: 10%;
   display: flex;
   position: relative;
-  margin-left: 40%;
+  margin-left: 50%;
   margin-right: 2%;
+}
+@media (max-width: 500px) {
+  .paragraph1 {
+    margin: 0;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: bold;
+  }
 }
 .paragraph11 {
   display: flex;
   position: relative;
-  margin-left: 40%;
+  margin-left: 45%;
   margin-bottom: 10%;
   margin-right: 2%;
+}
+@media (max-width: 500px) {
+  .paragraph11 {
+    margin: 15% 5% 10% 5%;
+  }
 }
 .bodypara1 {
   color: #FFFFFF;
@@ -286,6 +344,12 @@ p {
 .aboutpics1 {
   height: 13rem;
 }
+@media (max-width: 500px) {
+  .aboutpics1 {
+    height: 9rem;
+    width: 20%;
+  }
+}
 .dispflex {
   display: flex;
   justify-content: space-between;
@@ -293,6 +357,11 @@ p {
 }
 .abouth2s {
   font-size: 8rem;
+}
+@media (max-width: 500px) {
+  .abouth2s {
+    font-size: 4rem;
+  }
 }
 .moveleft1 {
   margin: 5% 0 0 5%;
@@ -314,6 +383,11 @@ p {
 }
 .aboutline4 {
   border-top: 2px dashed #1F1E1E;
+}
+@media (max-width: 500px) {
+  .aboutheader {
+    font-size: 6rem;
+  }
 }
 footer {
   font-size: 2rem;
