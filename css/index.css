@@ -294,6 +294,11 @@ p {
     font-size: 2.1rem;
   }
 }
+@media (max-width: 414px) {
+  .middlepara {
+    font-size: 2.3rem;
+  }
+}
 .middlepg {
   display: flex;
   position: relative;
