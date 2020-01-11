@@ -25,6 +25,9 @@ h1 {
         @media @phone {
             font-size: 3rem;
         }
+        @media @iphone {
+            font-size: 2.5rem;
+        }
 }
 h2 {
     display: flex;
@@ -32,10 +35,9 @@ h2 {
     font-size: 3.6rem;
     margin-top: 3%;
         @media @phone {
-            font-size: 2.5rem;
+            font-size: 3rem;
             display: flex;
             justify-content: center;
-
         }
 }
 h3 {
@@ -75,7 +77,10 @@ p {
     padding: 5% 0 5% 0;
     margin: 0 0% 0 0%;
         @media @phone {
-            font-size: 1.9rem;
+            font-size: 1.7rem;
+        }
+        @media @iphone {
+            font-size: 1.5rem;
         }
 }
 .middlepara {
@@ -89,8 +94,8 @@ p {
         font-size: 2.75rem;
         font-weight: bold;
     }
-    @media (min-width: 1000px) {
-        
+    @media @iphone {
+        font-size: 2.1rem;
     }
 }
 .middlepg {
@@ -115,10 +120,13 @@ p {
     margin-left: 50%;
     margin-right: 2%;
         @media @phone {
-            margin: 0;
+            margin: 5% 0 0 0;
             justify-content: center;
             font-size: 3rem;
             font-weight: bold;
+        }
+        @media @iphone {
+            font-size: 2.5rem;
         }
 }
 .paragraph11{
@@ -129,6 +137,9 @@ p {
     margin-right: 2%;
         @media @phone {
             margin: 15% 5% 10% 5%;
+        }
+        @media @iphone {
+            font-size: 1.7rem;
         }
 }
 .bodypara1 {
